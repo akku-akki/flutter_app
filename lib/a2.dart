@@ -8,6 +8,16 @@ class Example2 extends StatefulWidget {
 class _Example2State extends State<Example2> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("New App"),
+      ),
+      body: Center(
+        child: RaisedButton(
+          onPressed: () {},
+          child: Text("LetsDo it"),
+        ),
+      ),
+    );
   }
 }
